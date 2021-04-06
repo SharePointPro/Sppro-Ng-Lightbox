@@ -20,4 +20,4 @@ constructor(
 ```
 
 #Screenshot
-[!screenshot](https://raw.githubusercontent.com/SharePointPro/Sppro-Ng-Lightbox/main/screenshots/lightbox.PNG)
+![screenshot](https://raw.githubusercontent.com/SharePointPro/Sppro-Ng-Lightbox/main/screenshots/lightbox.PNG)
