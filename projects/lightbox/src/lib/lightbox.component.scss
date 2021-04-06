@@ -1,0 +1,35 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.9);
+    z-index: 1000000;
+}
+.overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 80%;
+    max-width: 80%;
+}
+.close-button{
+    font-size: 50px;
+    color: white;
+    position: fixed;
+    right: 30px;
+    top: 10px;
+    cursor: pointer;
+}
+.download-link{
+    position: fixed;
+    right: 80px;
+    top: 10px;
+    cursor: pointer;
+}
+.download-button {
+    font-size: 50px;
+    color: white;
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "07f8717d-1a26-4164-bc37-8111540944fb"
+  },
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "lightbox": {
+      "projectType": "library",
+      "root": "projects/lightbox",
+      "sourceRoot": "projects/lightbox/src",
+      "prefix": "sppro",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/lightbox/tsconfig.lib.json",
+            "project": "projects/lightbox/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/lightbox/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/lightbox/src/test.ts",
+            "tsConfig": "projects/lightbox/tsconfig.spec.json",
+            "karmaConfig": "projects/lightbox/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/lightbox/tsconfig.lib.json",
+              "projects/lightbox/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "lightbox"
+}
