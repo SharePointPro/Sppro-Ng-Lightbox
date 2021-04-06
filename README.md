@@ -1,6 +1,7 @@
 # Ng-Sppro-Lightbox
 A simple angular image lightbox.
 
+Uses ComponentFactoryResolver and injects component directly into DOM body
 #installation
 npm install ng-sppro-lightbox
 npm install @conify-/icons-ic  //dependency 
