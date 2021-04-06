@@ -18,3 +18,6 @@ constructor(
 //Open lightbox
  this._lightboxService.open("https://images.pexels.com/photos/1987042/pexels-photo-1987042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 ```
+
+#Screenshot
+[!screenshot](https://raw.githubusercontent.com/SharePointPro/Sppro-Ng-Lightbox/main/screenshots/lightbox.PNG)
