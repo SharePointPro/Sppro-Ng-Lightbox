@@ -1,5 +1,5 @@
 # Ng-Sppro-Lightbox
-A simple angular image lightbox that is dynamically injected.
+A simple angular image lightbox.
 
 #installation
 npm install ng-sppro-lightbox
