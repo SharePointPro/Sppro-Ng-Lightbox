@@ -1,4 +1,4 @@
-# NgSpproLightbox
+# Ng-Sppro-Lightbox
 A simple ng lightbox.
 
 #installation
