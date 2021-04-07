@@ -1,11 +1,12 @@
 # Ng-Sppro-Lightbox
-A simple ng lightbox.
+A simple angular image lightbox.
 
-#installation
-npm install ng-sppro-lightbox
-npm install @conify-/icons-ic  //dependency 
+Uses _ComponentFactoryResolver_ and injects component directly into DOM body
 
-#Usage
+# installation
+npm install ng-sppro-lightbox   
+
+# Usage
 ```
 //import lightbox service into componennt
 import { LightboxService  } from "ng-sppro-lightbox"; 
@@ -18,3 +19,6 @@ constructor(
 //Open lightbox
  this._lightboxService.open("https://images.pexels.com/photos/1987042/pexels-photo-1987042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
 ```
+
+# Screenshot
+![screenshot](https://raw.githubusercontent.com/SharePointPro/Sppro-Ng-Lightbox/main/screenshots/lightbox.PNG)
