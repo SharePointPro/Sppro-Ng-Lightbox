@@ -1,6 +1,6 @@
 {
   "name": "ng-sppro-lightbox",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simple dynamically injected Angular image Lightbox",
   "scripts": {
     "ng": "ng",
