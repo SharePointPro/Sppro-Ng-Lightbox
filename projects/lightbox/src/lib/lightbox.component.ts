@@ -1,6 +1,4 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
-import icClose from '@iconify/icons-ic/twotone-close';
-import icCloudDownload from '@iconify/icons-ic/twotone-cloud-download';
 import { scaleInOutAnimation } from './animations/scale-in-out.animation';
 
 @Component({
@@ -11,8 +9,6 @@ import { scaleInOutAnimation } from './animations/scale-in-out.animation';
 })
 export class LightboxComponent implements OnInit {
 
-  icCloseIcon: any = icClose;
-  icCloudDownloadIcon: any = icCloudDownload;
   imageUrl:string;
   
   constructor(private host: ElementRef<HTMLElement>) { }

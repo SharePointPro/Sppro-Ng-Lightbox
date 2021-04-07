@@ -1,9 +1,9 @@
 <div class="overlay" @scaleInOut>
     <img [src]="imageUrl">
-    <mat-icon [icIcon]="icCloseIcon" class="close-button" (click)="onClose()"></mat-icon>
+    <div class="close-button" (click)="onClose()">❌</div>
 
     <a [href]="imageUrl" download class="download-link">
-        <mat-icon [icIcon]="icCloudDownloadIcon" class="download-button"></mat-icon>
+        📥
     </a>
 
 </div>
